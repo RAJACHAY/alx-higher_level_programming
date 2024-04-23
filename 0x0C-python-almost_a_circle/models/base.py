@@ -1,16 +1,17 @@
 #!/usr/bin/python3
-'''class base will be define here.'''
+'''Deine class.'''
 
 
 class Base:
-    ''' class base element '''
+    '''Here start clas base.'''
 
     __nb_objects = 0
 
     def __init__(self, id=None):
-        ''''define construtor.'''
+        ''' Define constructor.'''
         if id is not None:
             self.id = id
-        else :
+        else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
+
