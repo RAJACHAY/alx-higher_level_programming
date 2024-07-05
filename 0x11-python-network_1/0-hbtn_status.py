@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 """how to fetche_ https://alx-intranet.hbtn.io/status"""
 import urllib.request
-
-#!/usr/bin/python3
-"""script for testing status of web pages
-"""
 if __name__ == "__main__":
     import urllib.request
     url = "https://intranet.hbtn.io/status"
