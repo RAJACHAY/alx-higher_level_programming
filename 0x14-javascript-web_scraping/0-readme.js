@@ -8,5 +8,5 @@ fs.readFile(filePath, 'utf8', (err, data) {
     console.error(err);
     process.exit(1);
   }
-  console.log(data);
+  process.stdout.write(data);
 });
